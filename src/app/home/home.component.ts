@@ -46,50 +46,25 @@ export class HomeComponent implements OnInit {
   }
 
   public executeSelectedChange = (event) => {
-    console.log(event);
+    // console.log(event);
   }
   public serviceType() {
     this.serviceTypes = [
       {
         title: '',
         body: '',
-        imageUrl: '/assets/images/hotel3.jpg',
+        imageUrl: '/assets/images/rama1.JPG',
       },
       {
         title: '',
         // tslint:disable-next-line: max-line-length
         body: '',
-        imageUrl: '/assets/images/hotel4.jpg',
+        imageUrl: '/assets/images/hanuman.jpg',
       },
       {
         title: '',
         body: '',
-        imageUrl: '/assets/images/market1.JPG',
-      },
-      {
-        title: '',
-        body: '',
-        imageUrl: '/assets/images/market2.JPG',
-      },
-      {
-        title: '',
-        body: '',
-        imageUrl: '/assets/images/facility1.jpg',
-      },
-      {
-        title: '',
-        body: '',
-        imageUrl: '/assets/images/facility2.jpg',
-      },
-      {
-        title: '',
-        body: '',
-        imageUrl: '/assets/images/security1.jpg',
-      },
-      {
-        title: '',
-        body: '',
-        imageUrl: '/assets/images/security2.jpg',
+        imageUrl: '/assets/images/shivalinga.jpg',
       },
     ];
   }
